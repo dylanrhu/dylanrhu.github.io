@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset = "UTF-8">
+        <title>Buy your cat here!</title>
+        <style>
+            .product-title{
+                color:red;
+                font-size: 45px;
+                font-style: intalic;
+            }
+            .product-page-container .btn{
+                background-color: skyblue;
+            }
 
-        <link rel = "stylesheet" href = "main.css">
-
+            .btn{
+                border:0;
+                padding:10px;
+                border-radius: 5px;
+                color:white;
+                background-color:green;
+            }
+        </style>
     </head>
 
     <body>
-        <h1>
-            Hello World!
-        </h1>
-        <h3>
-            blue
-        </h3>
-        <p>
-            red
-        </p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <img src = "cat.jpg">
+        <div class="product-page-container">
+            <h1 class="product-title" >Buy this cat?</h1>
+            <h2 class="product-price" > %420.69</h2>
+            <div class = "product-description">
+                <p>This is a cat</p>
+                <img src = "cat.jpg">
+            </div>
+            <button class="btn">Add to cart</button>
+            <bottom class="btn">Buy all</bottom>
+            <h1 class="product-title" > buy dis cat.</h1>
+        </div>
     </body>
 </html>

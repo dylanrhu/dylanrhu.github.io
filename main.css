@@ -1,4 +1,12 @@
 h3
 {
-    color:blue;
+    color:#000080;
+}
+
+.italic {
+    font-style:italic;
+}
+
+#bold {
+    font-weight:bold;
 }

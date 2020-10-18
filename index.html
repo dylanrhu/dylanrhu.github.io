@@ -5,7 +5,7 @@
         <title>Buy your cat here!</title>
         <style>
             .product-title{
-                color:red;
+                color:blue;
                 font-size: 45px;
                 font-style: intalic;
             }
@@ -20,15 +20,26 @@
                 color:white;
                 background-color:green;
             }
+
+            @media only screen and (max-width:500px){
+
+                .btn{
+                    width:100%;
+                }
+                .product-price{
+                    color:greenyellow;
+                }
+            }
         </style>
     </head>
 
     <body>
         <div class="product-page-container">
             <h1 class="product-title" >Buy this cat?</h1>
-            <h2 class="product-price" > %420.69</h2>
+            <h2 class="product-price" > $999.99</h2>
             <div class = "product-description">
-                <p>This is a cat</p>
+                <p>I'm selling this cat for a cheap price of $999.99. This is 1 cent cheaper</p>
+                <p>than the original $1000 so please buy it.</p>
                 <img src = "cat.jpg">
             </div>
             <button class="btn">Add to cart</button>
